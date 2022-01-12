@@ -1,0 +1,193 @@
+            @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Noto+Serif+SC:wght@200;300&display=swap');
+            html {
+                font-size: 16px;
+                scroll-behavior: smooth;
+            }
+            /* Redimensión de fuente utilizando rem */
+            
+            p {
+                font-size: 1rem;
+            }
+            
+            h1 {
+                font-size: 3rem;
+                margin: 0;
+            }
+            
+            h3 {
+                font-size: 2rem;
+            }
+            /*img {
+    width: 100%;
+}
+
+
+/* clases predefinidas */
+            
+            * {
+                box-sizing: border-box;
+                font-family: 'Faster One', cursive;
+                font-family: 'Noto Serif SC', serif;
+            }
+            
+            body {
+                margin: 0;
+                background-color: maroon;
+            }
+            /* Clear floats after the columns */
+            
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            /* Diseño de columnas */
+            
+            .column-1 {
+                width: 100%;
+                float: left;
+            }
+            
+            .column-2 {
+                width: 50%;
+                float: left;
+            }
+            
+            .column-3 {
+                width: 33.33%;
+                float: left;
+            }
+            
+            .column-4 {
+                width: 25%;
+                float: left;
+            }
+            
+            .column-5 {
+                width: 20%;
+                float: left;
+            }
+            
+            .column-6 {
+                width: 16.66%;
+                float: left;
+            }
+            
+            .column-nav {
+                width: 25%;
+                float: left;
+            }
+            
+            .column-75 {
+                width: 75%;
+                float: left;
+            }
+            
+            .flex {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            #card-1 {
+                background-image: url("../img/ccp1.jpg");
+                height: 100vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #card-2 {
+                background-image: url("../img/ccp2.jpg");
+                height: 100vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #card-3 {
+                background-image: url("../img/ccp3.jpg");
+                height: 100vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #card-4 {
+                background-image: url("../img/cco.jpg");
+                height: 50vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #card-5 {
+                background-image: url("../img/uwuntu.png");
+                height: 50vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #card-6 {
+                background-image: url("../img/piao.jfif");
+                height: 50vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #card-7 {
+                background-image: url("../img/china.png");
+                height: 50vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .padding-s {
+                padding: 3%;
+            }
+            
+            .back-white {
+                padding: 3%;
+                background-color: white;
+                color: rgb(027, 027, 027);
+            }
+            
+            .padding-s2 {
+                padding: 3%;
+                background-color: rgb(027, 027, 027);
+                color: white;
+            }
+            
+            footer {
+                background-color: gray;
+                margin: 0%;
+                background-color: rgb(027, 027, 027);
+                color: white;
+            }
+            /* Otras clases */
+            
+            header {
+                min-height: 100vh;
+                background-image: url("../img/5aece8640cf3854205f61465321ed55f.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            
+            a {
+                text-decoration: none;
+                color: darkgoldenrod;
+            }
+            
+            @media only screen and (max-width: 600px) {
+                /*reglas*/
+                /* column-3 pasará de tener 33.33% a 100% */
+                .column-3 {
+                    width: 100%;
+                }
+                /* column-4 pasará de tener 25% a 50% */
+                #caja-10 {
+                    width: 100%;
+                }
+                .column-75 {
+                    width: 100%;
+                }
+                .column-nav {
+                    width: 100%;
+                }
+            }
